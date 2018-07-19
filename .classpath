@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java"/>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources"/>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java"/>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/maven/repo/com/thoughtworks/xstream/xstream/1.4.10/xstream-1.4.10.jar">
+		<attributes>
+			<attribute name="maven.groupId" value="com.thoughtworks.xstream"/>
+			<attribute name="maven.artifactId" value="xstream"/>
+			<attribute name="maven.version" value="1.4.10"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/maven/repo/com/alibaba/fastjson/1.1.41/fastjson-1.1.41.jar" sourcepath="D:/maven/repo/com/alibaba/fastjson/1.1.41/fastjson-1.1.41-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/D:/maven/repo/com/alibaba/fastjson/1.1.41/fastjson-1.1.41-javadoc.jar!/"/>
+			<attribute name="maven.groupId" value="com.alibaba"/>
+			<attribute name="maven.artifactId" value="fastjson"/>
+			<attribute name="maven.version" value="1.1.41"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/maven/repo/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar" sourcepath="D:/maven/repo/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0-sources.jar">
+		<attributes>
+			<attribute name="maven.groupId" value="javax.servlet"/>
+			<attribute name="maven.artifactId" value="javax.servlet-api"/>
+			<attribute name="maven.version" value="3.1.0"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/maven/repo/com/fasterxml/jackson/core/jackson-annotations/2.7.4/jackson-annotations-2.7.4.jar" sourcepath="D:/maven/repo/com/fasterxml/jackson/core/jackson-annotations/2.7.4/jackson-annotations-2.7.4-sources.jar">
+		<attributes>
+			<attribute name="maven.groupId" value="com.fasterxml.jackson.core"/>
+			<attribute name="maven.artifactId" value="jackson-annotations"/>
+			<attribute name="maven.version" value="2.7.4"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/maven/repo/com/google/zxing/core/3.1.0/core-3.1.0.jar" sourcepath="D:/maven/repo/com/google/zxing/core/3.1.0/core-3.1.0-sources.jar">
+		<attributes>
+			<attribute name="maven.groupId" value="com.google.zxing"/>
+			<attribute name="maven.artifactId" value="core"/>
+			<attribute name="maven.version" value="3.1.0"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
